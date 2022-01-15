@@ -63,26 +63,24 @@ nav{
 
 main{
 
+    
+   
+   
     flex-direction: column;
     display: flex;
-    padding: 40px 200px;
-    align-items: center;
-   
-   
-    
+    padding: 50px;
+     align-items: center;
      
 
-    /* display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF; */
+  
      
 }
 
 .container{
 
     background-color: #FFFFFF;
-    max-width: 1200px;
-    padding: 50px;
+    width:1150px;
+    padding: 10px 20px;
      
     
     
@@ -113,6 +111,11 @@ main{
 .influencer-heading{
 
     font-size: 30px;
+}
+
+
+.description-journey{
+    font-size: 20px;
 }
 /* 
 //.end influencer-journes */
@@ -301,13 +304,55 @@ footer end */
 
  
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:888px) {
 
 .influencer-journes{
 
 
     grid-template-columns: repeat(1, 1fr);
+    /* background-color: blueviolet; */
 }
+.products{
+
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    
+    /* background-color: rgba(13, 78, 11, 0.685); */
+}
+.product{
+
+    margin: 10px;
+}
+
+
+
+.collections{
+
+    grid-template-columns: repeat(1,1fr);
+    /* background-color: brown; */
+}
+        /* .products{
+
+            display: none;
+        } */
+
+        .influencer-journes,.collections{
+
+            flex-direction: column;
+        }
+
+        .influencer,.collection,.product{
+
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+
+            width: 100%;
+        }
+
+
 
 
 
