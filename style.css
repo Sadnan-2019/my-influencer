@@ -1,0 +1,315 @@
+body{
+
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* tranform & transioin */
+
+
+.influencer:hover .influencer-img{
+    transform: scale(1.5) rotate(360deg);
+    transition: transform linear 2s;
+
+
+
+}
+
+ 
+
+/* //nav */
+
+.logo{
+
+    font-weight: bold;
+    font-size: 25px;
+    
+    
+    
+}
+
+
+
+.navigation a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    /* border: 1px solid blue; */
+   
+    align-items: center;
+    
+  
+}
+
+.navigation{
+
+    display: flex;
+}
+
+.navigation li{
+    list-style-type: none;
+    margin: 8px;
+} 
+
+main{
+
+    flex-direction: column;
+    display: flex;
+    padding: 40px 200px;
+    align-items: center;
+   
+   
+    
+     
+
+    /* display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF; */
+     
+}
+
+.container{
+
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    padding: 50px;
+     
+    
+    
+   
+    
+
+
+}
+
+
+
+.influencer-journes{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 100px;
+
+
+}
+.influencer{
+
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+}
+
+
+.influencer-heading{
+
+    font-size: 30px;
+}
+/* 
+//.end influencer-journes */
+
+
+
+
+
+.collections{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+
+    
+     
+}
+
+ 
+.collection-title{
+
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.collection-background{
+
+    /* background-color:whitesmoke; */
+    /* width:315px; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px gray;
+     
+   
+}
+
+.collection{
+
+   align-items: center;
+   justify-content: center;
+   margin: 10px;
+   
+   
+   
+   
+    
+    
+}
+.collection-img img{
+
+    height: 200px;
+    width: 300px;
+   
+}
+
+.collection-name{
+
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+                        
+
+}
+
+.collection-price{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.fa-star.rating{
+    color:#FFC014;
+    
+
+}
+
+.collection-end p{
+    text-align: end;
+
+     
+    
+     
+}
+ 
+
+.see-more{
+   
+    text-decoration: none;
+    
+ color: brown;
+  
+
+  
+}
+
+.see-more i{
+
+    padding: 10px;
+}
+/* ////end collections */
+
+
+.products{
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+  
+}
+
+.product{
+
+    display: flex;    
+}
+
+ .description-title{
+
+    font-size: 22px;    
+    
+}
+
+.description{
+
+    font-size: 18px;
+    text-align: justify;   
+
+}
+.product-frame{
+
+    align-items: center;
+}
+ .photo img{
+    height: 150px;
+    width:300px;
+    
+    
+    
+}
+
+
+/* products end */
+
+.know-more{
+
+    border-radius: 10px;
+    background-color:#0A0826;
+    color:white;
+    font-weight: 700px;
+    padding: 10px 10px;
+    text-decoration: none;
+     
+}
+.know-more i{
+
+    padding: 15px;
+}
+
+footer{
+
+    background-color: #0A0826;
+    height: 220px;
+     
+  
+}
+
+.footer{
+
+
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ 
+.social{
+    font-size: 20px;
+     display: inline;
+    padding: 10px;
+}
+/* 
+footer end */
+
+ 
+
+@media only screen and (max-width:688px) {
+
+.influencer-journes{
+
+
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+
+}
